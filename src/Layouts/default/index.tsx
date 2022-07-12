@@ -13,7 +13,7 @@ const LayoutDefault = ({ children, nextSeoProps, ...rest }: ILayoutDefault) => (
   <Page {...rest}>
     <NextSeo
       openGraph={{
-        url: `https://www.url.ie/a`,
+        url: `https://hm-internusa.my.id`,
         title: `Harum Manis Internusa`,
         description: `Your ONE Stop Sourcing & Supplier for all your products`,
         images: [
