@@ -9,7 +9,7 @@ const headerStyle = css`
 const Header = () => (
   <header className={tw(headerStyle)}>
     <div className={tw(`max-w-4xl mx-auto py-16 px-14 sm:px-6 lg:px-8`)}>
-      <h1 className={tw(`font-sans font-bold text-3xl md:text-4xl lg:text-5xl text-center leading-snug text-primary`)}>
+      <h1 className={tw(`font-bold text-3xl md:text-4xl lg:text-5xl text-center leading-snug text-primary`)}>
         We realize that high quality, fast delivery, and competitive cost are the key of excellent choice.
       </h1>
       <div className={tw(`max-w-xl mx-auto`)}>
@@ -19,7 +19,9 @@ const Header = () => (
         </p>
       </div>
       <div className={tw(`mt-10 flex justify-center items-center w-full mx-auto`)}>
-        <Button primary>Contact Us</Button>
+        <Button primary>
+          <span className={tw(`text-xl`)}>Contact Us</span>
+        </Button>
       </div>
     </div>
   </header>
