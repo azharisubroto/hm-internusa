@@ -29,7 +29,11 @@ const Footer = () => (
           style={{ width: 100, height: `auto` }}
           loading="lazy"
         />
-        <p className={tw(`text-4xl text-black font-bold`)}>STAVIQ</p>
+        <p className={tw(`text-2xl text-primary font-bold`)}>
+          HARUM MANIS
+          <br />
+          INTERNUSA
+        </p>
       </div>
       <div className={tw(`w-full lg:w-1/2`)}>
         <ul className={tw(`text-lg font-light flex flex-wrap w-full`)}>
