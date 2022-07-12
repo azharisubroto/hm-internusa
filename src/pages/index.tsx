@@ -1,6 +1,7 @@
 import PricingTable from '@/components/pricing-table';
 import LayoutDefault from '@/Layouts/default';
 import Header from '@/components/header';
+import FeatureSection from '@/components/feature-section';
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         description: `Ease your business`
       }}>
       <Header />
+      <FeatureSection />
       <PricingTable />
     </LayoutDefault>
   );
