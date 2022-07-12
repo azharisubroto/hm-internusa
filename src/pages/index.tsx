@@ -8,7 +8,7 @@ export default function Home() {
     <LayoutDefault
       nextSeoProps={{
         title: `HM Internusa`,
-        description: `Ease your business`
+        description: `Your ONE Stop Sourcing & Supplier for all your products`
       }}>
       <Header />
       <FeatureSection />

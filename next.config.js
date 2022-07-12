@@ -18,7 +18,7 @@ const nextConfig = {
   images: {
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
-    domains: ['staviq.co']
+    domains: ['hm-internusa.my.id']
   },
   swcMinify: true
 };
