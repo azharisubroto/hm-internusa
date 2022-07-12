@@ -9,7 +9,7 @@ interface IButton {
 const Button = ({ primary, modifier, children, ...rest }: IButton) => {
   const baseStyle = `font-sans font-medium py-2 px-4 border rounded`;
   const styles = primary
-    ? `bg-primary border-primary hover:bg-primary-400 text-vanilla`
+    ? `bg-primary border-primary hover:bg-primary text-vanilla`
     : `bg-white text-gray-600 border-gray-300 hover:bg-gray-100`;
 
   return (
