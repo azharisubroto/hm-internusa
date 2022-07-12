@@ -118,11 +118,11 @@ const Navigation = () => {
           <div className={tw(`flex items-center`)}>
             <div className={tw(`flex-shrink-0`)}>
               <Image
-                src={`/images/logo.svg`}
+                src={`/images/logo.png`}
                 alt="logo"
-                width={50}
-                height={49}
-                style={{ height: `auto` }}
+                width={100}
+                height={58}
+                style={{ width: 100, height: `auto` }}
                 loading="eager"
               />
             </div>

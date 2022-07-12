@@ -1,6 +1,8 @@
 import { AppProps } from 'next/app';
 // import { AppProps, NextWebVitalsMetric } from 'next/app';
-// import '@/styles/global.css';
+import withTwindApp from '@twind/next/app';
+import twindConfig from '@/twind.config';
+import Head from 'next/head';
 import '@fontsource/poppins/400.css';
 import '@fontsource/poppins/400-italic.css';
 import '@fontsource/poppins/700.css';
@@ -8,20 +10,13 @@ import '@fontsource/poppins/700-italic.css';
 import '@fontsource/poppins/900.css';
 import '@fontsource/poppins/900-italic.css';
 
-import { setup } from 'twind';
-import twindConfig from '../twind.config';
-
-if (typeof window !== `undefined`) {
-  setup(twindConfig);
-}
-
-// export function reportWebVitals(metric: NextWebVitalsMetric) {
-// console.log(metric);
-// }
-
-export default function MyApp({ Component, pageProps }: AppProps) {
+function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
+      <Head>
+        <link rel="icon" href="/favicon.png" />
+        <title>HM Internusa</title>
+      </Head>
       <Component {...pageProps} />;
       <style global jsx>{`
         html,
@@ -33,3 +28,5 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     </>
   );
 }
+
+export default withTwindApp(twindConfig, MyApp);

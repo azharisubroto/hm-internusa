@@ -22,11 +22,11 @@ const Footer = () => (
       <div className={tw(`mb-14 flex items-center w-full`)}>
         <Image
           className={tw(`h-12 w-12 mr-4`)}
-          src="/images/logo.svg"
+          src="/images/logo.png"
           alt="logo"
-          width={50}
-          height={49}
-          style={{ width: 50, height: `auto` }}
+          width={100}
+          height={58}
+          style={{ width: 100, height: `auto` }}
           loading="lazy"
         />
         <p className={tw(`text-4xl text-black font-bold`)}>STAVIQ</p>
