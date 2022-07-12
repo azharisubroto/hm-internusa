@@ -1,9 +1,9 @@
 {
-  "name": "staviq",
-  "description": "Staviq landing page",
+  "name": "hminternusa",
+  "description": "HM Internusa landing page",
   "version": "1.0.0",
   "private": true,
-  "author": "Azhari Subroto <azhari.subroto@gmail.com> (azhdev.com)",
+  "author": "Azhari Subroto <azhari.subroto@gmail.com> (hm-internusa.my.id)",
   "license": "MIT",
   "keywords": [
     "nextjs",
