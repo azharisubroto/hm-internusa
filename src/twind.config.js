@@ -9,18 +9,19 @@ export default {
         sans: `Poppins, sans-serif`,
       },
       colors: {
-        primary: '#967c61',
-        secondary: '#cbab7f',
-        tertiary: '#dcd2c9',
+        primary: '#71563A',
+        secondary: '#5d432c',
+        tertiary: '#796b5c',
         vanilla: '#f6f4ee',
-        darkbrown: '#5d432c'
+        darkbrown: '#624835',
+        bronze: '#C87B3F',
+        beige: '#C1A883',
+        success: '#9BBC40',
+        desert: '#D7BDA5',
+        isabel: '#F6F4EE',
+        isabelcontrast: '#e0d7ce'
       }
-    },
-    // colors: {
-    //   primary: '#967c61',
-    //   secondary: '#cbab7f',
-    //   tertiary: '#dcd2c9'
-    // },
+    }
   },
   mode: 'silent'
 }

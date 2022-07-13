@@ -17,7 +17,7 @@ const resourceLinks = [
 ];
 
 const Footer = () => (
-  <footer className={tw(`bg-white border-t border-gray-400 pt-14 pb-16`)}>
+  <footer className={tw(`bg-white pt-14 pb-16`)}>
     <div className={tw(`max-w-6xl mx-auto text-gray-400 px-8 lg:px-0 flex flex-wrap`)}>
       <div className={tw(`mb-14 flex items-center w-full`)}>
         <Image
@@ -42,7 +42,7 @@ const Footer = () => (
               <h4 className={tw(`text-primary text-base font-bold mb-1`)}>Product</h4>
               <ul>
                 {productLinks.map((link) => (
-                  <li className={tw(`text-gray-800 text-sm font-medium leading-6`)} key={link}>
+                  <li className={tw(`text-tertiary hover:text-bronze text-sm font-medium leading-6`)} key={link}>
                     <a href="/">{link}</a>
                   </li>
                 ))}
@@ -54,7 +54,7 @@ const Footer = () => (
               <h4 className={tw(`text-primary text-base font-bold mb-1`)}>Resources</h4>
               <ul>
                 {resourceLinks.map((link) => (
-                  <li className={tw(`text-gray-800 text-sm font-medium leading-6`)} key={link}>
+                  <li className={tw(`text-tertiary hover:text-bronze text-sm font-medium leading-6`)} key={link}>
                     <a href="/">{link}</a>
                   </li>
                 ))}
@@ -66,7 +66,7 @@ const Footer = () => (
               <h4 className={tw(`text-primary text-base font-bold mb-1`)}>About Us</h4>
               <ul>
                 {aboutLinks.map((link) => (
-                  <li className={tw(`text-gray-800 text-sm font-medium leading-6`)} key={link}>
+                  <li className={tw(`text-tertiary hover:text-bronze text-sm font-medium leading-6`)} key={link}>
                     <a href="/">{link}</a>
                   </li>
                 ))}
@@ -82,7 +82,19 @@ const Footer = () => (
             <input
               aria-label="email address"
               type="text"
-              className={tw(`border border-gray-300 bg-gray-100 min-w-0 w-full rounded text-gray-800 py-2 px-3 mr-2`)}
+              className={tw([
+                `border`,
+                `border-gray-300`,
+                `bg-gray-100`,
+                `min-w-0`,
+                `w-full`,
+                `rounded`,
+                `text-tertiary`,
+                `hover:text-bronze`,
+                `py-2`,
+                `px-3`,
+                `mr-2`
+              ])}
               placeholder="Enter your email"
             />
             <Button>Subscribe</Button>

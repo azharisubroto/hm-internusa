@@ -128,7 +128,7 @@ const Navigation = () => {
                   <a
                     key={link.label}
                     href={link.href}
-                    className={tw(`text-gray-500 hover:text-gray-600 px-3 py-2 rounded-md font-medium`)}>
+                    className={tw(`text-black hover:text-bronze px-3 py-2 rounded-md font-medium`)}>
                     {link.label}
                   </a>
                 ))}

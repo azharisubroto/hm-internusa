@@ -13,14 +13,14 @@ const Header = () => (
         We realize that high quality, fast delivery, and competitive cost are the key of excellent choice.
       </h1>
       <div className={tw(`max-w-xl mx-auto`)}>
-        <p className={tw(`mt-10 text-darkbrown text-center text-xl lg:text-3xl`)}>
+        <p className={tw(`mt-10 text-tertiary text-center text-xl lg:text-3xl`)}>
           We can be your ONE Stop Sourcing &amp; Supplier for all your products in consumer agriculture, spice, food
           supplies, stationery, and much more.
         </p>
       </div>
       <div className={tw(`mt-10 flex justify-center items-center w-full mx-auto`)}>
-        <Button primary>
-          <span className={tw(`text-xl`)}>Contact Us</span>
+        <Button primary modifier="px-20 py-4">
+          <span className={tw(`text-2xl`)}>Contact Us</span>
         </Button>
       </div>
     </div>
