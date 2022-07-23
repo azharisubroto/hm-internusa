@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <link rel="icon" href="/favicon.png" />
-        <title>HM Internusa</title>
+        <title>Harum Manis Internusa</title>
       </Head>
       <Component {...pageProps} />;
       <style global jsx>{`
